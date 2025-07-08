@@ -10,7 +10,7 @@ import webserver
 
 nest_asyncio.apply()
 
-webserver.keep_alive()
+#webserver.keep_alive()
 
 
 load_dotenv()
@@ -203,7 +203,7 @@ async def check_bot_time(ctx):
     await ctx.send(response_message)
 
 
-
+webserver.keep_alive()
 
 
     
